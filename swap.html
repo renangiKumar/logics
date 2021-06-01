@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function swap(){
+            let n=Number(prompt("Enter array length"));
+            let arr=[];
+            for (let i=1; i<=n; i++){
+                arr.push(prompt("Enter array value"));
+            }
+            document.write(arr+"<br>");
+
+            for(let a=0; a<arr.length; a++) {
+                for(let b=a+1; b<arr.length; b++){
+                    if(arr[a] > arr[b]){
+                        let c;
+                        c=arr[a];
+                        arr[a]=arr[b];
+                        arr[b]=c;
+                    }
+                }
+            }
+            document.write(arr);
+
+        }
+        swap();
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+    <body>
+        
+    </body>
+    <script>
+        let user ={
+            let descriptor =Object.getOwnPropertyDescriptor
+            name:"john",
+            tostring(){
+                return this.name;
+            
+            }
+        };
+        Object.definedProperty(user "tostring",{
+            enumberable:false
+        });
+
+        for(let key in user)
+        alert(key);
+    </script>
+</html>

@@ -1,0 +1,28 @@
+<div class="container">
+    <form [formGroup]="loginForm" (ngSubmit)="submitLoginForm()">
+        <div class="error-box" *ngIf="alert" [ngClass]="{
+            'red-box' : status,
+            'green-box' : !status
+        }">
+            <h4>{{alertMsg}}</h4>
+        </div>
+        <div class="outer-box">
+            <div class="box">
+                <div class="box-wrapper">
+                    <div class="head">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="iput-f">
+                        <span></span>
+                        <input type="email" placeholder="Email ID" formControlName="email">
+                    </div>
+                    <div class="iput-f">
+                        <span></span>
+                        <input [type]="passwordType" placeholder="Password" formControlName="password">
+                    </div>
+                    <button type="submit">submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

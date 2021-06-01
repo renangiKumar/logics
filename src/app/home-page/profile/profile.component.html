@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="back-btn"><button (click)="backToHomePage()">Back</button></div>
+    <div class="profile-container">
+        <div class="left">
+            <!-- <div class="details" (click)="navTo('details')"><h3>Details</h3></div>
+            <div class="albums" (click)="navTo('albums')"><h3>Album</h3></div>
+            <div class="posts" (click)="navTo('posts')"><h3>Post</h3></div> -->
+            <div class="details" routerLinkActive="active" routerLink="./details"><h3>Details</h3></div>
+            <div class="albums" routerLinkActive="active" routerLink="./albums"><h3>Album</h3></div>
+            <div class="posts" routerLinkActive="active" routerLink="./posts"><h3>Post</h3></div>
+        </div>
+        <div class="right">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        function anagram() {
+            let n = prompt("Enter array length");
+            let k = prompt("Enter array length");
+            let arrn = []
+            let arrk = []
+            
+            let x = 0;
+            let y = 0;
+
+            for (let i = 1; i <= n; i++) {
+                arrn.push(prompt("Enter 1 array values"));
+            }
+            for (let i = 1; i <= n; i++) {
+                arrk.push(prompt("Enter 2 array values"));
+            }
+            document.write(arrn +'<br>');
+            document.write(arrk +"<br>");
+
+            if (n == k) {
+
+                let a = 0;
+                while (a < n) {
+
+                    let count = 0;
+                    let b = 0;
+
+                    while (b < k) {
+                        if (arrn[a] == arrk[b]) {
+                            count++;
+                        }
+
+                        b++;
+                    }   
+                    if (count >= 1) {
+                        x++;
+                    }
+                    else {
+                        y++;
+                    }
+
+                    a++;
+                }
+
+                if (x == n) {
+                    document.write("anagram");
+                }
+                else {
+                    document.write("Not anagram");
+                }
+
+            }
+            else {
+                document.write("Not anagram");
+            }
+
+        }
+        anagram();
+    </script>
+</body>
+
+</html>

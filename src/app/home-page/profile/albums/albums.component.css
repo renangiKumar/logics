@@ -1,0 +1,27 @@
+.container{
+    width:100%;
+}
+.title{
+    width:100%;
+    /* padding: 20px; */
+    /* border:1px solid gold; */
+    /* color:gold; */
+    display:flex;
+}
+.title div{
+    padding: 20px;
+}
+.title .left{
+    width:10%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.title .right{
+    width:90%;
+    color:gold;
+}

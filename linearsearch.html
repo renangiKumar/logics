@@ -1,0 +1,40 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        function linear() {
+            let n = Number(prompt("Enter array length"));
+            let arr = [];
+            let c;
+            let count=0;
+            for (let i = 1; i <= n; i++) {
+                arr.push(prompt("Enter array values"));
+            }
+
+            document.write(arr + "<br>");
+            let b = Number(prompt("Enter a element"));
+
+            for (let a = 0; a < arr.length - 1; a++) {
+                if (b == arr[a]) {
+                    count++;
+                    c = a;
+
+                }
+            }
+
+            if (count >= 0) {
+                document.write(c + "is the index");
+            }
+            else {
+                document.write("not found");
+            }
+        }
+        linear();
+    </script>
+</body>
+
+</html>

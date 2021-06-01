@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    top: 0px;
+    background-color: cadetblue;
+    width: 100%;
+    height:85px;
+}
+li {
+    
+    float: left;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    margin: 26px 0px 0px 0px;
+}
+.logo {
+    width: 40px;
+    margin: 0px 0px 0px 0px;
+}
+.name {
+    font-size: 30px;
+    color: gray;
+    padding-left: 5px;
+    margin: 0px 0px 0px 0px;
+}
+li {
+    font-size: 20px;
+    padding-right: 15px;
+
+}
+input[type=submit] {
+    background-color: rgb(61, 113, 255);
+    color:white;
+    height: 40px;
+    width: 190px;
+    font-size: 20px;
+    opacity: 0.8;
+    border-radius: 3px;
+    border-color: rgb(67, 67, 255);
+    margin: 21px 0px 0px 0px;
+    font-weight: 500;
+}
+.intro {
+    width: 50%;
+    float: left;
+}
+h2 {
+    font-size: 55px;
+    font-weight: 600;
+    
+    padding-top: 120px;
+    padding-left: 72px;
+}
+p {
+    font-size: 18px;
+    padding-left: 74px;
+}
+.img {
+    float: left;
+    width: 50%;
+}
+.image {
+    
+    width: 300px;
+}

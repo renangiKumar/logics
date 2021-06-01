@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            header {
+                background-color:deepskyblue;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+                }
+                nav {
+                float: left;
+                width: 30%;
+                height: 350px; 
+                background:cyan;
+                padding: 70px;
+                }
+
+                article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color:darksalmon;
+                height: 350px; 
+                font-size: large;
+                }                
+                section::after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+
+
+
+                footer {
+                background-color: cornsilk;
+                padding: 15px;
+                text-align: center;
+                color:black;
+                }
+                h1 {
+                    font-size: 50px;
+                }
+        </style>
+
+    </head>
+    <body>
+        <h1>cites</h1>
+        <header>
+            <h2>Beatuful cites</h2>
+        </header>
+        <section>
+        <nav>
+            <ul>
+                <li><a href="london.jpg" target="london">london</a></li>
+                <li><a href="if.jpg" target="london">paris</a></li>
+                <li><a href="4k.jpg" target="london">nature</a></li>
+            </ul>
+        </nav>
+        
+        <article>
+            <iframe src="london.jpg" height="330px" width="600px" name="london">london</iframe>
+             
+        </article>
+        </section>
+        <footer>end</footer>
+    </body>
+</html>

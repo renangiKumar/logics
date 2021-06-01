@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="post" *ngFor="let post of postsArr;let i=index">
+        <div class="left">
+            <span>{{i+1}}</span>
+        </div>
+        <div class="right">
+            <div style="color:red">{{post.title}}</div>
+            <div>{{post.body}}</div>
+        </div>
+    </div>
+</div>

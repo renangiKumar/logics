@@ -1,0 +1,25 @@
+<html>
+    <head>
+        
+    </head>
+    <script>
+        function oneton() {
+            let n=Number(prompt("Enter a value"));
+            let even = "";
+            let odd = "";
+            for (let i=1; i<=n; i++) {
+                if (i%2==0) {
+                     even = even + i+","
+                    
+                }
+                else  {
+                    
+                        odd = odd + i+ ","
+                }
+            }
+            document.write("even numbers are"+even+"<br>");
+            document.write("odd numbers are"+odd);
+        }
+        oneton();
+    </script>
+</html>

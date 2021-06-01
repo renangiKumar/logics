@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+    </head>
+    <script>
+        function prime(){
+            let a=Number(prompt("Enter a number"));
+            prime="";
+            let i=1;
+            let n=0;
+            while (n<a){
+                let count=0;
+                let j=1;
+                while(j<=i)
+                {
+                    if (i%j ==0){
+                        count++;
+                    }
+                    j++;
+                }
+                if(count==2){
+                    prime=prime+i;
+                    n++;
+                }
+                i++;
+            }
+            document.write(prime);
+        }
+    </script>
+</html>

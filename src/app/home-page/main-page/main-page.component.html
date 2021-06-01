@@ -1,0 +1,14 @@
+<div class="container">
+    <header>
+        <input type="search" placeholder="search by name,email or company name" (input)="searchFunc(search)" #search>
+    </header>
+    <div class="no-data" *ngIf="tempUserArr.length == 0">
+        <h1>No Data Available</h1>
+    </div>
+    <div class="cards-list">
+        <!-- <div class="card" *ngFor= "let user of userArr">
+            
+        </div> -->
+        <app-card *ngFor= "let user of tempUserArr" [input1]="user"></app-card>
+    </div>
+</div>

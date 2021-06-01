@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        function bubble() {
+            let n = Number(prompt("Enter array length"));
+            let arr = [];
+            let count;
+            for (let i = 1; i <= n; i++) {
+                arr.push(prompt("Enter a value"));
+
+            }
+            document.write(arr + "<br>");
+
+
+
+            function sort() {
+
+                count = 0;
+
+                for (let a = 0; a < arr.length - 1; a++) {
+
+                    for (let b = a + 1; b == a + 1; b++) {
+
+                        if (arr[a] > arr[b]) {
+                            count++;
+                            let c;
+                            c = arr[a];
+                            arr[a] = arr[b];
+                            arr[b] = c;
+                        }
+                    }
+                }
+                if (count > 0) {
+                    document.write(arr + "<br>");
+                    sort();
+                }
+            }
+
+            sort();
+            document.write(arr);
+
+        }
+        bubble();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <h1>DETAILS</h1>
+            <label for="name">user name</label><br>
+            <input type="text" id="name"><br>
+            <label for="password">password</label><br>
+            <input type="text" id="password"><br>
+            <input type="submit" value="login" onclick="login()">
+        </form>
+  
+    <script>
+        function login() {
+            var nam=document.getElementById("name").value;
+            var passwor=document.getElementById("password").value;
+            
+            if (nam == "kumar" && passwor == "123"){
+                alert("login succesfull");
+            }
+            else {
+                alert("wrong password");
+            }
+
+        
+        }
+        </script>
+    </body>
+</html>

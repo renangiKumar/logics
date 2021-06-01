@@ -1,0 +1,195 @@
+
+@media only screen and (max-width:768px){
+  #dd {
+    margin-left: 0px !important;
+  }
+   .text {
+     margin-left: -15px !important;
+    margin: 160px 0px 0px 0px !important;
+    width: 290px !important;
+    height: 150px !important;
+  } 
+  .h {
+    font-size: 10px !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  } 
+  .d {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    font-size: 10px !important;
+  }
+    .start {
+    margin-top: 9px !important;
+    margin-left: 0px;
+    width: 120px!important;
+    height: 30px!important;
+    font-size: 10px !important;
+  } 
+  h1 {
+    font-size: 20px !important;
+  } 
+  #img1 {
+    margin-left: -15px;
+  }
+}
+#icon {
+  color: whitesmoke;
+}
+#logo {
+            margin-left: 50px;
+}
+#live {
+            color: whitesmoke;
+            font-weight: 600;
+            font-size: 20px;
+            
+}
+#dd {
+  color: white;
+            font-weight: 600;
+            font-size: 25px;
+            margin-left: 600px;
+            margin-top: 3px;
+            
+}
+
+#discovery {
+            color: whitesmoke;
+            font-size: 25px;
+            font-weight: 600;
+            margin-left: 15px;
+          }
+#search {
+            color: whitesmoke;
+            font-size: 30px;
+            margin-left: 15px;
+}
+#sign {
+            color: whitesmoke;
+            font-size: 25px;
+            font-weight: 600;
+            margin-left: 15px;
+            margin-top: 5px;
+}
+#menu {
+            color: whitesmoke;
+            margin-left: 15px;
+            font-size: 25px;
+            margin-top: 5px;
+}
+ul {
+            list-style-type: none ;
+            
+          }
+#sign:hover {
+            color: yellow;
+} 
+
+
+#img1 {
+  width: 100%;
+  margin-left: -15px;
+}
+#img1 {
+  position: absolute;
+  
+  z-index: -1;
+}
+
+
+.h{
+  
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 25px;
+}
+.d {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+ 
+.start {
+  background-color: rgb(50, 101, 255);
+  /* color: whitesmoke; */
+   border-color: royalblue; 
+   color: whitesmoke;
+  border-radius: 5px;
+  border: 2px solid royalblue;
+  height: 50px;
+  width: 200px;
+  opacity: 0.8;
+  font-weight: 700;
+  margin-top: 20px;
+  
+} 
+ .start:hover {
+  background-color: whitesmoke;
+  color: royalblue;
+  border-color: whitesmoke;
+  
+}
+.text {
+  background-color: whitesmoke;
+  width: 450px;
+  height: 450px;
+  border: 15px solid rgb(167, 167, 167) ;
+  margin: 200px;
+  
+}
+h1 {
+  border-left: 10px solid rgb(48, 48, 250);
+}
+
+
+/* carosal */
+
+body {
+  padding-top: 20px;
+}
+
+.carousel {
+width: 100%;
+}
+
+.slide-box {
+display: flex;
+justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.slide-box img {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.slide-box img {
+  -ms-flex: 0 0 33.3333%;
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+}
+
+@media (min-width: 992px)
+{
+.slide-box img {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+}
+
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5);
+padding: 20px;
+border-radius: .5rem;
+}
+ 
+  

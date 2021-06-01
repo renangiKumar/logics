@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+    </head>
+    <script>
+        function perfect(){
+            let a=Number(prompt("Enter a number"));
+            let i=1;
+            let z=0;
+            do {
+                if(a%i ==0){
+                // z=i+z;
+                z+=i;
+                }
+                i++;
+            }
+            
+            while  (i<a)
+                if (z == a) {
+                document.write("prefect number")
+            }
+            else {
+                document.write("not perfect number")
+            
+        }
+        
+        }
+        perfect ();
+    </script>
+</html>

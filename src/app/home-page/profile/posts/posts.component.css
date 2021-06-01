@@ -1,0 +1,28 @@
+.container{
+    width:100%;
+}
+.post{
+    width:80%;
+    margin: auto;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.post .left{
+    width:10%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post .left span{
+    padding: 5px 7px 5px 7px;
+    color: white;
+    background-color: red;
+}
+.post .right{
+    width : 90%;
+    border-radius: 5px;
+    padding:10px;
+    border: 1px solid red;
+}
